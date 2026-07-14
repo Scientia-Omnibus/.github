@@ -1,20 +1,47 @@
-## Scientia Omnibus — knowledge that fits in your pocket.
+<div align="center">
 
-We build lightweight, offline-first tools for people who cannot rely on the internet or modern hardware. No cloud, no subscriptions, no electron shells — just software that runs on whatever you have.
+```
+╔══════════════════════════════════════════════════════════╗
+║                                                          ║
+║               SCIENTIA OMNIBUS                           ║
+║         knowledge that fits in your pocket               ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
+```
 
-### What we make
+</div>
 
-Open-source applications designed around one constraint: **they must work without a connection and on old machines**. Terminal-native interfaces, minimal dependencies, and knowledge packs that fit on a USB stick.
+We build lightweight, offline-first tools for people who cannot rely on the internet or modern hardware. **No cloud, no subscriptions, no Electron** — just software that runs on whatever you have.
 
-**Released:**
-- **[scientia-core]** — offline knowledge reader. Download a Markdown pack once, read it forever. No internet required after the first sync.
+---
 
-**In development:**
-- **[scientia-editor]** — ultra-lightweight terminal code editor for fifteen-year-old computers. Written in Rust.
+### Apps
 
-**Knowledge bases:**
-- **formal-sciences** — mathematics from arithmetic to calculus. Ready for offline use.
-- humanities, social sciences, natural sciences, DIY, survival & medicine — in progress.
+<div align="center">
+
+[![scientia-core](https://img.shields.io/badge/scientia--core-stable-%2322c55e?style=flat-square&labelColor=%231a1a2e)](https://github.com/Scientia-Omnibus/scientia-core)
+[![scientia-editor](https://img.shields.io/badge/scientia--editor-stable-%2322c55e?style=flat-square&labelColor=%231a1a2e)]()
+[![website](https://img.shields.io/badge/scientia--omnibus.vercel.app-%23000000?style=flat-square&label=site&labelColor=%231a1a2e)](https://scientia-omnibus.vercel.app)
+
+</div>
+
+| Project | Lang | What it does |
+|---------|------|-------------|
+| [**scientia-core**](https://github.com/Scientia-Omnibus/scientia-core) | Python | Offline Markdown knowledge reader. Download a pack once, read forever. |
+| **scientia-editor** | Rust | Terminal code editor. Coming soon. |
+
+### Knowledge bases
+
+| Name | Status | Scope |
+|------|--------|-------|
+| [formal-sciences](https://github.com/Scientia-Omnibus/formal-sciences) | ready | Arithmetic through introductory calculus |
+| [survival-and-medicine](https://github.com/Scientia-Omnibus/survival-and-medicine) | ready | First aid, field medicine, bushcraft |
+| humanities | in progress | |
+| social sciences | in progress | |
+| natural sciences | in progress | |
+| DIY | in progress | |
+
+---
 
 ### Who this is for
 
@@ -22,23 +49,12 @@ Open-source applications designed around one constraint: **they must work withou
 - Field workers who need reference material without signal
 - Anyone who believes that access to knowledge should not depend on the hardware you can afford
 
-### What's ready now
-
-scientia-core is stable and usable. The formal-sciences knowledge base covers basic arithmetic through introductory calculus. You can clone it, put it on a Raspberry Pi, or carry it on a USB drive.
-
-### What's coming
-
-New knowledge domains, a terminal-based code editor, and more compression — keeping the same zero-overhead guarantee.
+---
 
 ### Everyone is welcome
 
 This is a volunteer project. Writers, translators, and developers all have a place here.
 
-- No programming required to contribute content — just Markdown.
-- Code contributions go through GitHub issues and pull requests.
-- Translations expand who can use these materials.
+**No programming required for content** — just Markdown and a pull request. Translations expand who can use these materials.
 
-Browse the repositories, open an issue, or send a pull request.
-
-[scientia-core]: https://github.com/Scientia-Omnibus/scientia-core
-[scientia-editor]: https://github.com/Scientia-Omnibus/scientia-editor
+Browse the repositories, open an issue, or send a PR.

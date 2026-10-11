@@ -1,19 +1,5 @@
-<div align="center">
+## We build lightweight, offline-first tools for people who cannot rely on the internet or modern hardware.
 
-```
-╔══════════════════════════════════════════════════════════╗
-║                                                          ║
-║               SCIENTIA OMNIBUS                           ║
-║         knowledge that fits in your pocket               ║
-║                                                          ║
-╚══════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-We build lightweight, offline-first tools for people who cannot rely on the internet or modern hardware. **No cloud, no subscriptions, no Electron** — just software that runs on whatever you have.
-
----
 
 ### Apps
 
@@ -28,7 +14,7 @@ We build lightweight, offline-first tools for people who cannot rely on the inte
 | Project | Lang | What it does |
 |---------|------|-------------|
 | [**scientia-core**](https://github.com/Scientia-Omnibus/scientia-core) | Python | Offline Markdown knowledge reader. Download a pack once, read forever. |
-| **scientia-editor** | Rust | Terminal code editor. Coming soon. |
+| **scientia-editor** | Rust | Terminal code editor. Private for now. |
 
 ### Knowledge bases
 
@@ -54,7 +40,4 @@ We build lightweight, offline-first tools for people who cannot rely on the inte
 ### Everyone is welcome
 
 This is a volunteer project. Writers, translators, and developers all have a place here.
-
-**No programming required for content** — just Markdown and a pull request. Translations expand who can use these materials.
-
 Browse the repositories, open an issue, or send a PR.
